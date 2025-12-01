@@ -8,11 +8,11 @@ body {
   line-height: 1.6;
 }
 
-.container {
-  width: 90%;
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+table, th, td {
+border: 1px solid white;border-collapse: collapse;
+}
+th, td {
+background-color: #96D4D4;
 }
 
 h1, h2, h3 {
@@ -20,7 +20,7 @@ h1, h2, h3 {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 25px;
 }
 
 
@@ -28,7 +28,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 2rem auto;
+  margin: 25px;
 }
 
 
